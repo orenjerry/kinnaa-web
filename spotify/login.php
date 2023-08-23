@@ -1,8 +1,8 @@
 <?php
 session_start();
-$clientId = '288ef94232504494af46c0fa1da6ac3e';
-$clientSecret = '99df0c42fa394111bc82c67dcef5d734';
-$redirectUri = 'http://localhost/kinnaa-web/';
+$clientId = 'YOUR_CLIENT_ID';
+$clientSecret = 'YOUR_CLIENT_SECRET';
+$redirectUri = 'REDIRECT_URL';
 
 if (!$_SESSION['state']) {
     $_SESSION['state'] = '';
