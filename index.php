@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['code'])) {
-    header('location: spotify/?code=' . $_GET['code'] . '&state=' . $_GET['state']);
+    header('location: spotify/?code=' . $_GET['code'] . '&state=' . $_GET['state'] . '&check=1');
 }
 ?>
 <!DOCTYPE html>
